@@ -1,0 +1,116 @@
+{
+  "c2563898-9051-4ba2-a6aa-7e7da7cc8b86": {
+    "humanReadableName": "Date",
+    "name": "date",
+    "columnName": "date",
+    "columnType": "DATE"
+  },
+  "edeeb747-7ac5-4262-9f4d-f7d92dc4a25c": {
+    "humanReadableName": "First User Campaign Name",
+    "name": "firstUserCampaignName",
+    "columnName": "first_user_campaign_name",
+    "columnType": "VARCHAR"
+  },
+  "d771538a-dff7-4b6d-bbdb-6d5a58a44744": {
+    "humanReadableName": "First User Default Channel Group",
+    "name": "firstUserDefaultChannelGroup",
+    "columnName": "first_user_default_channel_group",
+    "columnType": "VARCHAR"
+  },
+  "a86f5df4-8720-4b11-b08d-dfbf2ee8e925": {
+    "humanReadableName": "First User Medium",
+    "name": "firstUserMedium",
+    "columnName": "first_user_medium",
+    "columnType": "VARCHAR"
+  },
+  "b9df45f1-c8f3-4c4f-80af-0aa5b1f1c6e1": {
+    "humanReadableName": "First User Source",
+    "name": "firstUserSource",
+    "columnName": "first_user_source",
+    "columnType": "VARCHAR"
+  },
+  "f4d87198-73b3-4707-b5ac-66d101eaff8e": {
+    "humanReadableName": "First User Source Platform",
+    "name": "firstUserSourcePlatform",
+    "columnName": "first_user_source_platform",
+    "columnType": "VARCHAR"
+  },
+  "9ca211e0-5442-40a7-9991-b9b68738ad06": {
+    "humanReadableName": "Session Campaign Name",
+    "name": "sessionCampaignName",
+    "columnName": "session_campaign_name",
+    "columnType": "VARCHAR"
+  },
+  "7e5c0e14-9b64-4ada-8a6d-7adb8534e841": {
+    "humanReadableName": "Session Default Channel Group",
+    "name": "sessionDefaultChannelGroup",
+    "columnName": "session_default_channel_group",
+    "columnType": "VARCHAR"
+  },
+  "46e1484c-d114-46e6-abb2-5cf569490304": {
+    "humanReadableName": "Session Medium",
+    "name": "sessionMedium",
+    "columnName": "session_medium",
+    "columnType": "VARCHAR"
+  },
+  "9f31a789-50aa-4fe0-8609-abbd97e4fbc7": {
+    "humanReadableName": "Session Source",
+    "name": "sessionSource",
+    "columnName": "session_source",
+    "columnType": "VARCHAR"
+  },
+  "45c0eceb-1869-4f28-ac56-4b34baec45e7": {
+    "humanReadableName": "Session Source Platform",
+    "name": "sessionSourcePlatform",
+    "columnName": "session_source_platform",
+    "columnType": "VARCHAR"
+  },
+  "c172a950-f97e-4efd-9870-98df0cd5dd69": {
+    "humanReadableName": "Event Name",
+    "name": "eventName",
+    "columnName": "event_name",
+    "columnType": "VARCHAR"
+  },
+  "a809b671-89e1-4455-a0ee-3e85a2a41849": {
+    "humanReadableName": "City",
+    "name": "city",
+    "columnName": "city",
+    "columnType": "VARCHAR"
+  },
+  "ad4d371f-f321-4023-9de1-0dea5803e50d": {
+    "humanReadableName": "Continent",
+    "name": "continent",
+    "columnName": "continent",
+    "columnType": "VARCHAR"
+  },
+  "257e1ddb-7d26-45a3-827f-04ed8986438e": {
+    "humanReadableName": "Country",
+    "name": "country",
+    "columnName": "country",
+    "columnType": "VARCHAR"
+  },
+  "5aa81c7b-473b-466d-840c-166977d08467": {
+    "humanReadableName": "Region",
+    "name": "region",
+    "columnName": "region",
+    "columnType": "VARCHAR"
+  },
+  "167def44-e4cf-4245-ac7d-67ae77eba2b3": {
+    "humanReadableName": "Currency Code",
+    "name": "currencyCode",
+    "columnName": "currencyCode",
+    "columnType": "VARCHAR"
+  },
+  "814f4d42-f09e-4f09-8446-8e89890be3ed": {
+    "humanReadableName": "Item Category",
+    "name": "itemCategory",
+    "columnName": "itemCategory",
+    "columnType": "VARCHAR"
+  },
+  "66ff207e-11ff-480b-9ec2-da3507e17bb4": {
+    "humanReadableName": "Item Name",
+    "name": "itemName",
+    "columnName": "itemName",
+    "columnType": "VARCHAR"
+  }
+}

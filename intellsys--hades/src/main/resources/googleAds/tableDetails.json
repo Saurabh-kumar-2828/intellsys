@@ -1,0 +1,20 @@
+{
+  "0": {
+    "campaign": {
+      "metrics": [
+        "fecb8d76-810a-45f3-80f7-289909f02d3b",
+        "e78af2a4-c0d1-4dc4-b720-0da7084e9145"
+      ],
+      "dimensions": [
+        "a6269c71-2278-404b-9144-db7d5dc571f4",
+        "17a24d58-fde8-4a16-98fb-9e00985665b5"
+      ]
+    }
+  },
+  "1":{
+    "ad_group":{
+      "metrics": [],
+      "dimensions": []
+    }
+  }
+}

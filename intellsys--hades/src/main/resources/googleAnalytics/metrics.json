@@ -1,0 +1,140 @@
+{
+  "4f5af757-2128-4698-a257-7a1088c7e77f": {
+    "humanReadableName": "Total Users",
+    "name": "totalUsers",
+    "columnName": "total_users",
+    "columnType": "INTEGER"
+  },
+  "bf82817c-4485-4e9c-b230-41f297ddc95b": {
+    "humanReadableName": "New Users",
+    "name": "newUsers",
+    "columnName": "new_users",
+    "columnType": "VARCHAR"
+  },
+  "e83d0a67-c1e4-4e89-b7c7-09e7d1bb7e31": {
+    "humanReadableName": "Sessions",
+    "name": "sessions",
+    "columnName": "sessions",
+    "columnType": "VARCHAR"
+  },
+  "cf0451b3-29d9-497d-8b5e-22ded4b43b0f": {
+    "humanReadableName": "Engaged Sessions",
+    "name": "engagedSessions",
+    "columnName": "engaged_sessions",
+    "columnType": "VARCHAR"
+  },
+  "804eee29-0774-4295-b8b2-6804e71b25bb": {
+    "humanReadableName": "Average Session Duration",
+    "name": "averageSessionDuration",
+    "columnName": "average_session_duration",
+    "columnType": "VARCHAR"
+  },
+  "a37bc12d-d3f2-4e8e-9d4f-c8a3e9cf22ea": {
+    "humanReadableName": "User Engagement Duration",
+    "name": "userEngagementDuration",
+    "columnName": "user_engagement_duration",
+    "columnType": "VARCHAR"
+  },
+  "a7368432-f894-46ab-8b26-675f7d920931": {
+    "humanReadableName": "Conversions",
+    "name": "conversions",
+    "columnName": "conversions",
+    "columnType": "VARCHAR"
+  },
+  "b192d8ef-2b62-4c07-8b2f-4d476d9ffcd2": {
+    "humanReadableName": "Total Revenue",
+    "name": "totalRevenue",
+    "columnName": "total_revenue",
+    "columnType": "VARCHAR"
+  },
+  "b1c15b99-04f7-4929-9691-80257d060a7d": {
+    "humanReadableName": "Active Users",
+    "name": "activeUsers",
+    "columnName": "active_users",
+    "columnType": "VARCHAR"
+  },
+  "cfe31a34-f770-4ff9-a121-4faa4fa53bdb": {
+    "humanReadableName": "Bounce Rate",
+    "name": "bounceRate",
+    "columnName": "bounce_rate",
+    "columnType": "VARCHAR"
+  },
+  "5dbf009a-6d58-43a0-9dae-fc7f939aa127": {
+    "humanReadableName": "Engagement Rate",
+    "name": "engagementRate",
+    "columnName": "engagement_rate",
+    "columnType": "VARCHAR"
+  },
+  "798ec6d9-caa9-4513-84b4-a302e7b854f5": {
+    "humanReadableName": "Sessions per user",
+    "name": "sessionsPerUser",
+    "columnName": "sessions_per_user",
+    "columnType": "VARCHAR"
+  },
+  "fe098d98-ec2b-4cd8-8fe5-4ff18438a780": {
+    "humanReadableName": "Event Count",
+    "name": "eventCount",
+    "columnName": "event_count",
+    "columnType": "VARCHAR"
+  },
+  "88fe3b3c-6fd8-4de1-97e1-91d7dfb69512": {
+    "humanReadableName": "Event Count per user",
+    "name": "eventCountPerUser",
+    "columnName": "event_count_per_user",
+    "columnType": "VARCHAR"
+  },
+  "2454a4ce-f69d-4ced-a2f2-b81400556d68": {
+    "humanReadableName": "Event Count per session",
+    "name": "eventCountPerSession",
+    "columnName": "event_count_per_session",
+    "columnType": "VARCHAR"
+  },
+  "7191e444-74a7-4c69-a2b4-e10a8570a4ec": {
+    "humanReadableName": "First Time Purchasers",
+    "name": "firstTimePurchasers",
+    "columnName": "first_time_purchasers",
+    "columnType": "VARCHAR"
+  },
+  "813dad4a-170f-420a-a34b-6744f46b7c01": {
+    "humanReadableName": "Item Discount Amount",
+    "name": "itemDiscountAmount",
+    "columnName": "item_discount_amount",
+    "columnType": "VARCHAR"
+  },
+  "baec8f79-5f23-487b-9542-2aab08e18218": {
+    "humanReadableName": "Item Refund Amount",
+    "name": "itemRefundAmount",
+    "columnName": "item_refund_amount",
+    "columnType": "VARCHAR"
+  },
+  "40458f2c-e37a-499a-b880-df0f9f7358b7": {
+    "humanReadableName": "Item Revenue",
+    "name": "itemRevenue",
+    "columnName": "item_revenue",
+    "columnType": "VARCHAR"
+  },
+  "7a13c976-9b12-4bc8-a7ae-0dc3b0f983a6": {
+    "humanReadableName": "Items added to cart",
+    "name": "itemsAddedToCart",
+    "columnName": "items_added_to_cart",
+    "columnType": "VARCHAR"
+  },
+  "8a5deead-bed4-4345-a29d-664df96cab3b": {
+    "humanReadableName": "Items checked out",
+    "name": "itemsCheckedOut",
+    "columnName": "items_checked_out",
+    "columnType": "VARCHAR"
+  },
+  "eb823d56-b538-438c-833b-21473b426aaa": {
+    "humanReadableName": "Items purchased",
+    "name": "itemsPurchased",
+    "columnName": "items_purchased",
+    "columnType": "VARCHAR"
+  },
+  "12dbb289-32fc-4f25-86f9-66c21770c439": {
+    "humanReadableName": "Items viewed",
+    "name": "itemsViewed",
+    "columnName": "items_viewed",
+    "columnType": "VARCHAR"
+  }
+}

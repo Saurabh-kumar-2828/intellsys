@@ -1,0 +1,14 @@
+{
+  "fecb8d76-810a-45f3-80f7-289909f02d3b" : {
+    "humanReadableName": "Clicks",
+    "name": "clicks",
+    "columnName": "clicks",
+    "columnType": "INTEGER"
+  },
+  "e78af2a4-c0d1-4dc4-b720-0da7084e9145": {
+    "humanReadableName": "Impressions",
+    "name": "impressions",
+    "columnName": "impressions",
+    "columnType": "INTEGER"
+  }
+}

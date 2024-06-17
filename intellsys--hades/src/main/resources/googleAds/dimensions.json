@@ -1,0 +1,14 @@
+{
+  "a6269c71-2278-404b-9144-db7d5dc571f4": {
+    "humanReadableName": "campaign.id",
+    "name": "campaign.id",
+    "columnName": "campaign_id",
+    "columnType": "VARCHAR"
+  },
+  "17a24d58-fde8-4a16-98fb-9e00985665b5": {
+    "humanReadableName": "campaign.listing_type",
+    "name": "campaign.listing_type",
+    "columnName": "campaign_listing_type",
+    "columnType": "VARCHAR"
+  }
+}
