@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    html {
+        scroll-behavior: smooth;
+
+        --gj-header-height: 4rem;
+        --gj-mobile-ui-height: 4rem;
+        --gj-px-screen-edge: 5vw;
+    }
+
+    /* body {
+        font-family: "Inter", sans-serif;
+    } */
+
+    .tw-lp-button {
+        @apply tw-bg-primary-1 tw-text-fg hover:tw-brightness-125 disabled:tw-brightness-50 tw-p-4 disabled:tw-cursor-not-allowed tw-rounded-full tw-px-8;
+        font-size: 16px;
+    }
+
+    /* .lp-tab {
+        @apply tw-p-4 tw-bg-dark-bg-500 radix-tab-active:tw-font-bold radix-tab-active:tw-text-white radix-tab-active:tw-shadow-[0_-2px_0_#ffffff_inset];
+    } */
+
+    /* TODO: Fix this, `is` is very ambiguous and confusing */
+    .is-button {
+        @apply tw-bg-primary-1 tw-text-fg hover:tw-brightness-125 disabled:tw-brightness-50 tw-p-4 disabled:tw-cursor-not-allowed tw-rounded-full;
+    }
+
+    /* TODO: Fix this, `is` is very ambiguous and confusing */
+    .is-text-input {
+        @apply tw-p-4 tw-rounded-full tw-bg-dark-bg-600 tw-text-white disabled:tw-text-neutral-800 disabled:tw-bg-neutral-600 read-only:tw-text-neutral-800 read-only:tw-bg-neutral-600 tw-w-full;
+        box-shadow: 0px 9px 13px rgba(0, 0, 0, 0.07);
+    }
+
+    .tw-px-screen-edge {
+        padding-left: var(--gj-px-screen-edge);
+        padding-right: var(--gj-px-screen-edge);
+    }
+
+    .tw-font-h1-200 {
+        font-size: 2.5rem;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+
+    .tw-font-h1-300 {
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+
+    .tw-font-h1-400 {
+        font-size: 2.75rem;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    .tw-font-1rem {
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .tw-font-1\.5rem {
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .tw-font-2rem {
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    .tw-font-4rem {
+        font-size: 4rem;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    /* TODO: Shift this to tailwind.config */
+    .tw-grid-cols-24 {
+        grid-template-columns: repeat(24, minmax(0, 1fr));
+    }
+
+    .tw-col-span-12 {
+        grid-column: span 12 / span 12;
+    }
+
+    .tw-col-span-24 {
+        grid-column: span 24 / span 24;
+    }
+
+    .gj-text-primary-gradient {
+        @apply tw-text-primary;
+        /* Asset-link afeb6666-2b9d-4945-a009-f30f3b305412 */
+        /* background: -webkit-linear-gradient(0.5turn, #1f40cb, #00a2ed); */
+        background: linear-gradient(86.28deg, #7adfff -9.41%, #1e40ca 73.14%, #58bce7 156.92%);
+        /* /Asset-link */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .gj-bg-foreground-gradient-dark {
+        background: linear-gradient(331.74deg, #737a88 11.73%, #3d4352 71.11%, #3d4352 117.18%);
+    }
+    .gj-text-button {
+        font-family: "gj-poppins";
+        font-weight: 600;
+
+        @apply tw-text-[1rem] tw-leading-[1.5rem];
+    }
+
+    .gj-bg-primary-gradient {
+        background: -webkit-linear-gradient(0.5turn, #00a2ed, #1e40ca, #58bce7);
+        animation: animated-gradient 6s ease alternate infinite;
+        background-size: 300% 300%;
+    }
+
+    .is-gray-bg-gradient {
+        background: linear-gradient(141deg, rgba(32, 35, 41, 0.3) 30.62%, rgba(124, 126, 131, 0.3) 88.35%);
+    }
+
+    .gj-bg-campaign-cta-card-gradient-border {
+        border: 1px solid;
+        border-image-source: linear-gradient(145.53deg, #1e40ca 0%, #ffffff 105.25%);
+        border-radius: 12px !important;
+    }
+}
+
+.ag-theme-alpine-dark {
+    --ag-font-size: 14px;
+    --ag-font-family: Poppins;
+    --ag-font-weight: 400;
+}
+
+.ag-root-wrapper {
+    border-radius: 8px;
+}
